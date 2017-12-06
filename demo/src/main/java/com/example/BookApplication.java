@@ -14,7 +14,7 @@ public class BookApplication {
         return "Spring in Action";
     }
 
-    @RequestMapping(value = "/checked-out")
+    @RequestMapping(value = "/checked-out/checked")
     public String checkedOut() {
         return "Spring Boot in Action";
     }
