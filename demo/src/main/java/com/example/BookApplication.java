@@ -13,7 +13,14 @@ public class BookApplication {
     public String available() {
         return "Spring in Action";
     }
-    
+    @RequestMapping(value = "/wangyi")
+    public void wangyi() {
+    	System.out.println("转发到网易");
+    }
+    @RequestMapping(value = "/home")
+    public String home() {
+    	return "home";
+    }
     @RequestMapping(value = "/available")
     public String availableOne() {
         return "Spring in Action";
