@@ -13,6 +13,11 @@ public class BookApplication {
     public String available() {
         return "Spring in Action";
     }
+    
+    @RequestMapping(value = "/available")
+    public String availableOne() {
+        return "Spring in Action";
+    }
 
     @RequestMapping(value = "/checked-out/checked")
     public String checkedOut() {
