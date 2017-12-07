@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 public class BookApplication {
 
-    @RequestMapping(value = "/available/a")
+    @RequestMapping(value = "/api/book2/available/a")
     public String available() {
         return "Spring in Action";
     }
