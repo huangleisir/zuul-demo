@@ -25,6 +25,7 @@ public class BookApplication {
     public String availableOne() {
         return "Spring in Action";
     }
+
 //http://localhost:8080/api/rest/abc 
 //将demo2里面的zuul.routes.book.stripPrefix=true toggle切换为false试试看
     //true表示从星号开始匹配  
@@ -37,6 +38,7 @@ zuul.routes.book.stripPrefix=true
 zuul.routes.book.path=/rest/*
 zuul.routes.book.url=http://localhost:8090
      */
+
     @RequestMapping(value = "/rest/abc")
     public String restAbc() {
         return "restAbc";
