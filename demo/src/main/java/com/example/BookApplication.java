@@ -38,7 +38,6 @@ zuul.routes.book.stripPrefix=true
 zuul.routes.book.path=/rest/*
 zuul.routes.book.url=http://localhost:8090
      */
-
     @RequestMapping(value = "/rest/abc")
     public String restAbc() {
         return "restAbc";
