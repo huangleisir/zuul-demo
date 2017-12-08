@@ -25,6 +25,16 @@ public class BookApplication {
     public String availableOne() {
         return "Spring in Action";
     }
+    
+    @RequestMapping(value = "/rest/abc")
+    public String restAbc() {
+        return "restAbc";
+    }
+    
+    @RequestMapping(value = "/abc")
+    public String abc() {
+        return "abc";
+    }
 
     @RequestMapping(value = "/checked-out/checked")
     public String checkedOut() {
