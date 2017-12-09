@@ -24,4 +24,10 @@ zuul.routes.book.stripPrefix=true
 zuul.routes.book.path=/rest/*
 zuul.routes.book.url=http://localhost:8090
 
+zuul几种路由类型：
+1.简单路由， zuul配置里面的url后面跟的是http，https开头的url
+2.ribbon路由， 用serviceId（需要将zuul网关添加ek客户端配置）
+3.forwad路由，
+4.自定义路由 通过自定义的正则表达式来做
+
 
