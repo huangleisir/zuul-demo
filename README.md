@@ -33,4 +33,30 @@ zuul几种路由类型：
 zuul干嘛用的：只记得三点，路由转发过滤
 忽然就是想不起来ribbon是干啥用的
 
+https://github.com/huangleisir/common-pics/blob/master/Screenshot_20171210-112337.png
+这个ribbon是怎么用，要配合restTemplate来用
+[iamge](https://github.com/huangleisir/common-pics/blob/master/Screenshot_20171210-112337.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
