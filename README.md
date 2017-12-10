@@ -35,7 +35,7 @@ zuul干嘛用的：只记得三点，路由转发过滤
 
 https://github.com/huangleisir/common-pics/blob/master/Screenshot_20171210-112337.png
 这个ribbon是怎么用，要配合restTemplate来用
-[iamge](https://github.com/huangleisir/common-pics/blob/master/Screenshot_20171210-112337.png)
+![image](https://github.com/huangleisir/common-pics/blob/master/Screenshot_20171210-112337.png)
 
 
 
