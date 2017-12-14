@@ -23,6 +23,7 @@ public class BookApplication {
     }
     @RequestMapping(value = "/available")
     public String availableOne() {
+    	System.out.println(System.currentTimeMillis());
         return "Spring in Action";
     }
 
