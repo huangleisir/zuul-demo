@@ -2,6 +2,7 @@ package com.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -21,9 +22,10 @@ public class BookApplication {
     public String home() {
     	return "home";
     }
-    @RequestMapping(value = "/available")
-    public String availableOne() {
-    	System.out.println(System.currentTimeMillis());
+    //   http://localhost:8080/books/available/324234?a=111111111111111
+    @RequestMapping(value = "/available/{v1}")
+    public String availableOne(@PathVariable String v1,String a) {
+    	System.out.println(System.currentTimeMillis()+"       "+v1+"  "+a);
         return "Spring in Action";
     }
 
