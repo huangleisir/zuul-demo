@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Bean;
 
 @EnableZuulProxy
 @SpringBootApplication
-public class Demo2Application {
+public class ZuulServerApplication {
 
     @Bean
     public SimpleFilter simpleFilter() {
@@ -16,7 +16,7 @@ public class Demo2Application {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(Demo2Application.class, args);
+        SpringApplication.run(ZuulServerApplication.class, args);
     }
 
 
