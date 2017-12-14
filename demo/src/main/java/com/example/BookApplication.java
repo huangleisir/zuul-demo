@@ -12,7 +12,7 @@ public class BookApplication {
     @RequestMapping(value = "/api/book2/available/a")
     public String available() {
         return "Spring in Action";
-    }
+    } 
     @RequestMapping(value = "/wangyi")
     public void wangyi() {
     	System.out.println("转发到网易");
